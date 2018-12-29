@@ -3,6 +3,7 @@ module.exports = {
   description: '十七楼的个人网站',
   // base:"",// 非根目录
   themeConfig: {
+    lastUpdated: '上次更新时间', // string | boolean
     // navbar: false,
     nav: [
       { text: '首页', link: '/' },
