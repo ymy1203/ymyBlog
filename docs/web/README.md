@@ -122,13 +122,43 @@ const user = [
   {id:4,name:"b"},
 ]
 Array.prototype.unique = function () {
-  // TODO...
+  //TODO...
 }
 //输出 ["a","b"]
 ```
 ### 实现
 ```js
-TODO...
+Array.prototype.unique = function () {
+  return [...new Set(this.map((item)=>{return item.name}))]
+}
+```
+## ES6 proxy
+1. 已知以下对象，请基于es6中的proxy方法设计一个属性拦截读取操作的例子，要求实现去访问目标对象example中不存在的属性时，抛出错误：Property "${property}" does not exist
+```js
+const main = {
+  name : "jscoder",
+  age : 24
+}
+// 补全
+const proxy = new Proxy(//TODO...)
+// 输出
+proxy.name // "jscoder"
+proxy.age // 24
+proxy.location // Property "location" does not exist
+
+```
+### 实现
+```js
+const proxy = new Proxy(main,{
+  get:(target,property)=>{
+    // target： 目标对象；property：所要访问的属性
+    if (property in target) {
+      return target[property];
+    } else {
+      throw new ReferenceError(`Property  "${property}" does not exist.`);
+    }
+  }
+})
 ```
 ## 虚拟dom生成真实dom
 ::: tip
