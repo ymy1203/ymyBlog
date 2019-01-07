@@ -2,6 +2,9 @@ module.exports = {
   title: '十七楼',
   description: '十七楼的个人网站',
   // base:"",// 非根目录
+  head: [
+    ['link', { rel: 'icon', href: '/17.png' }]
+  ],
   themeConfig: {
     lastUpdated: '上次更新时间', // string | boolean
     // navbar: false,

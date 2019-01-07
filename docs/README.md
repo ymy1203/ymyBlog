@@ -2,7 +2,7 @@
 home: true
 lang: zh-CN
 # navbar: false #当前页不适用导航
-# heroImage: /hero.png
+heroImage: /17.png
 
 actionText: 学习笔记！ →
 actionLink: /notes/
@@ -15,5 +15,3 @@ features:
   details: 使用VuePress框架搭建 。
 footer: 十七楼 | Copyright © 2018-present shiqi Yao
 ---
-# Hello!
-## readme  
