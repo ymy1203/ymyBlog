@@ -43,7 +43,7 @@ module.exports = {
           title: 'flutter&Dart',
           children: [
             '/notes/flutter/',
-            '/notes/flutter/widget',
+            '/notes/flutter/style',
             '/notes/flutter/plug',
             '/notes/flutter/dart',
             '/notes/flutter/flutterClass',
