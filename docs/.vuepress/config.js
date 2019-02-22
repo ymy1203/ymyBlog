@@ -27,7 +27,9 @@ module.exports = {
           // title: '目录',
           collapsable: false,
           children: [
-            '/web/'
+            '/web/',
+            '/web/tt00',
+            '/web/tt01'
           ]
         },
       ],

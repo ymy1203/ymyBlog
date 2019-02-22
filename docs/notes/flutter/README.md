@@ -25,8 +25,11 @@ widget都有一个child属性（例如 `Center` 或`Container`；
   > 元素聚集在一起    eg ： justify-content ：center；
 
 ## Container
-... 
+...
 
+下边是整理的一些google develop发布在youtube上的widget
+---
+> 地址：[Google Flutter](https://www.youtube.com/watch?v=lkF0TQJO0bA&list=PLOU2XLYxmsIL0pH0zWe_ZOHgGhZ7UasUE)
 ## SafeArea
 > 可视界面：自动检测手机的通知栏,状态栏,圆角  
 
