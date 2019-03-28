@@ -29,7 +29,8 @@ module.exports = {
           children: [
             '/web/',
             '/web/tt00',
-            '/web/tt01'
+            '/web/tt01',
+            '/web/html'
           ]
         },
       ],
